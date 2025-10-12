@@ -113,8 +113,8 @@ button{
 
 @media screen and (max-width: 768px) {
   .navbar {
-	max-width: 500px;
-    flex-direction: column;
+	
+    flex-direction: row;
     align-items: center;
     padding: 10px;
     gap: 10px;
