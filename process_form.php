@@ -1,13 +1,14 @@
 
 <?php
+if (isset($_POST['fname'])) {
+    $fname = $_POST['fname'];
+} else {
+    $fname = '';
+}
 
-if(isset($_POST(['fname'])){
-   $fname = $_POST['fname'];
-
-	$email = $_POST['email'] ?? '';
+$email = $_POST['email'] ?? '';
 
 echo "Name is: " . htmlspecialchars($fname);
-}
 ?>
 
 
