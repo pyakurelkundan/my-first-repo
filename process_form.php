@@ -2,7 +2,7 @@
 <?php
 
 if(isset($_POST(['fname'])){
-   $name = $_POST['fname'];
+   $fname = $_POST['fname'];
 
 	$email = $_POST['email'] ?? '';
 
