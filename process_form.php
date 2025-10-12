@@ -6,7 +6,7 @@ if(isset($_POST(['fname']))
 
 	$email = $_POST['email'];
 
-echo "Name is: "$fname;
+echo "Name is: " .$fname;
 
 ?>
 
