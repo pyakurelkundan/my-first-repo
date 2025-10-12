@@ -2,11 +2,11 @@
 <?php
 
 if(isset($_POST(['fname'])){
-   $fname = $_POST['fname'];
+   $name = $_POST['fname'];
 
-	$email = $_POST['email'];
+	$email = $_POST['email'] ?? '';
 
-echo "Name is: " .$fname;
+echo "Name is: " . htmlspecialchars($fname);
 }
 ?>
 
