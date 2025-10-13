@@ -36,6 +36,9 @@ a:hover{
 	border-radius: 10px;
 	
 	}
+a:active{
+	color: lightblue;
+}
 
 
 .intro{
@@ -94,7 +97,7 @@ button{
 
 .iconn{
 	display: flex;
-	align-items: center;
+	justify-content: center;
 	gap: 20px;
 	border-radius: 50%;
 	font-size: 20px;
