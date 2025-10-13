@@ -3,6 +3,10 @@
 
 }
 
+html{
+	scroll-behaviour: smooth;
+}
+
 body{
 	background: linear-gradient(to right, #f0f0f0, #c0c0c0);
 	display: flex;
