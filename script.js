@@ -1,8 +1,8 @@
 <script>
-  let name = document.getquerySelector("#fname");
+  let name = document.querySelector("#fname");
   console.log(name);
 
-let useremail = document.getquerySelector("#email");
+let useremail = document.querySelector("#email");
   console.log(useremail);
 
 </script>
