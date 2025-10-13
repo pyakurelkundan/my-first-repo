@@ -49,11 +49,11 @@ a:focus{
   margin: auto;                
 }
 
- p {
+.intro p {
                         
   line-height: 1.6;
   max-width: 600px; 
-  font-size: 1.4em;		
+  font-size: 1em;		
 }
 
 
