@@ -32,10 +32,11 @@ body{
 	}
 	
 a:hover{
-	background-color: grey;
+	background-color: lightgrey;
 	border-radius: 10px;
 	
 	}
+
 a:focus{
 	color: red;
 }
