@@ -59,9 +59,13 @@ span{
             
 }
 
-.technical-skill{
+#technical-skill{
 	font-size: 1.8em;
+	margin-bottom: 2px;
 	
+}
+#technical-skil li{
+	font-size: 1.5em;
 }
 
 button{
