@@ -43,13 +43,13 @@ a:focus{
 }
 
 
-.intro{
+.aboutme{
   text-align: center;    
   padding: 20px;  
   margin: auto;                
 }
 
-.intro p {
+.aboutme p {
                         
   line-height: 1.6;
   max-width: 600px; 
