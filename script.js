@@ -1,10 +1,10 @@
 <script>
-  button.addEventListener("click", () => {
-      const name = document.querySelector("#fname").value;
-      const useremail = document.querySelector("#email").value;
+  let submitBtn = document.querySelector("#submitbtn");
 
-      console.log("Name:", name);
-      console.log("Email:", useremail);
+submitBtn.addEventListener("click", (event) => {
+    window.alert("Submit Button Pressed");
+});
+
 </script>
 
 
