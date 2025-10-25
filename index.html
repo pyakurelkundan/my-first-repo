@@ -1,6 +1,4 @@
-Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/main/section/article/footer), cleaned markup, and accessible structure—**HTML only** (no CSS changes). It keeps your content and IDs so your existing CSS/JS can still work.
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +11,8 @@ Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/m
 </head>
 
 <body>
-  <!-- Skip link for keyboard users -->
   <a href="#main-content" class="skip-link">Skip to content</a>
 
-  <!-- Header / Primary Navigation -->
   <header>
     <nav class="navbar" aria-label="Primary">
       <a href="#home">Home</a>
@@ -28,15 +24,15 @@ Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/m
     </nav>
   </header>
 
-  <!-- Main content -->
+ 
   <main id="main-content">
 
-    <!-- Hero / Home -->
+   
     <section id="home" aria-labelledby="home-title">
       <h1 id="home-title" class="sr-only">Kundan Pyakurel — Frontend Developer</h1>
     </section>
 
-    <!-- About -->
+   
     <section class="aboutme" id="intro" aria-labelledby="about-title">
       <h2 id="about-title">About Me</h2>
 
@@ -57,7 +53,7 @@ Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/m
       </p>
     </section>
 
-    <!-- Services -->
+
     <section id="services" aria-labelledby="services-title">
       <h2 id="services-title">Services</h2>
       <div class="services-grid" role="list">
@@ -78,7 +74,7 @@ Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/m
       </div>
     </section>
 
-    <!-- Skills -->
+ 
     <section id="technical-skill" aria-labelledby="skills-title">
       <h2 id="skills-title">Technical Skills</h2>
       <ul>
@@ -90,7 +86,7 @@ Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/m
       </ul>
     </section>
 
-    <!-- Contact -->
+ 
     <section class="contact-info" aria-labelledby="contact-title">
       <h2 id="contact-title">Contact Me</h2>
 
@@ -119,7 +115,7 @@ Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/m
       </div>
     </section>
 
-    <!-- Social links -->
+    
     <section class="iconn" aria-label="Social media">
       <a href="https://linkedin.com/in/kundan-pyakurel-23809a350" target="_blank" rel="noopener">
         <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
@@ -140,23 +136,13 @@ Got it! Here’s your page rewritten with **proper semantic HTML** (header/nav/m
 
   </main>
 
-  <!-- Footer -->
+
   <footer aria-label="Site footer">
     <small>© <span id="year"></span> Kundan Pyakurel. All rights reserved.</small>
   </footer>
 
-  <script>
-    // Simple current year
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
   <script src="script.js"></script>
 </body>
 </html>
-```
 
-What changed (HTML-only):
 
-* Introduced semantic landmarks: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, `<figure>/<figcaption>`.
-* Fixed invalid markup (closed `<ul>`, removed stray `<style=` inside `<strong>`, added unique headings).
-* Added accessible labels/roles, skip link, and `rel="noopener"` on external links.
-* Preserved your IDs/classes so your `style.css` and `script.js` keep working.
