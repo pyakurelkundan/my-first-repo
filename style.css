@@ -1,11 +1,11 @@
 :root{
-  --bg: #f6f8fb;
-  --white: #fff;
-  --text: #0f172a;
-  --muted :#475569;
-  --red: #FF0000;
-  --blue-dark: #1d4ed8;
-  --border: #e2e8f0;
+  --bg:#f6f8fb;
+  --white:#fff;
+  --text:#0f172a;
+  --muted:#475569;
+  --red:#FF0000;
+  --blue-dark:#1d4ed8;
+  --border:#e2e8f0;
 
 }
 
