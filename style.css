@@ -86,10 +86,12 @@ section{
   margin: auto;
   line-height: 1.7;
   color: var(--muted);
+  
 }
 
 #intro span{
   color: var(--red);
+  font-size: 1.5em;
 }
 
 .services-grid{
