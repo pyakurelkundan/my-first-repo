@@ -202,7 +202,7 @@ textarea.fo{
 }
 
 #hirebtn{
-  background: var(--blue);
+  background: var(--red);
   color: #fff;
   border: 0;
 }
