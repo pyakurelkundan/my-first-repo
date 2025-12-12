@@ -173,7 +173,6 @@ textarea.fo{
 #submitbtn{
   background: var(--blue);
   border: 0;
-  padding: .8rem 1.1rem;
   border-radius: 12px;
   font-weight: 700;
   
