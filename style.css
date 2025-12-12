@@ -63,7 +63,9 @@ section{
   padding: 3rem 0
 }
 
-.aboutme{text-align:center}
+.aboutme{
+  text-align: center;
+}
 
 .aboutme figure{
   width: 190px;
