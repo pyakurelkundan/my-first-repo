@@ -80,11 +80,6 @@ section{
   object-fit: cover;
 }
 
-.aboutme figcaption{
-  margin-top: .4rem;
-  color: var(--muted);
-  font-weight: 600;
-}
 
 #intro p{
   max-width: 720px;
