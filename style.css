@@ -71,9 +71,7 @@ section{
   width: 190px;
   margin: auto;
   border-radius: 50%;
-  overflow: hidden;
   border: 6px solid rgba(37,99,235,.2);
-  box-shadow: var(--shadow);
 }
 
 .aboutme img{
