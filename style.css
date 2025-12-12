@@ -4,7 +4,7 @@
   --text:#0f172a;
   --muted:#475569;
   --red:#FF0000;
-  --blue:#0000FF;
+  --blue:#0096FF;
   --blue-dark:#1d4ed8;
   --border:#e2e8f0;
 
@@ -178,6 +178,10 @@ textarea.fo{
   border-radius: 12px;
   font-weight: 700;
   cursor: pointer;
+}
+
+#submitbtn:hover{
+  background: var(--blue-dark);
 }
 
 
