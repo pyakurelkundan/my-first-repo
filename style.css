@@ -172,11 +172,14 @@ textarea.fo{
 
 #submitbtn{
   background: var(--blue);
+  color: #fff;          
   border: 0;
+  padding: .8rem 1.2rem; 
   border-radius: 12px;
   font-weight: 700;
-  
+  cursor: pointer;
 }
+
 
 
 .cta-buttons{
