@@ -3,7 +3,7 @@
   --white:#fff;
   --text:#0f172a;
   --muted:#475569;
-  --blue:#2563eb;
+  --red:##fc1303;
   --blue-dark:#1d4ed8;
   --border:#e2e8f0;
 
@@ -67,7 +67,6 @@ section{
 
 .aboutme figure{
   width: 190px;
-  aspect-ratio: 1;
   margin: auto;
   border-radius: 50%;
   overflow: hidden;
@@ -95,7 +94,7 @@ section{
 }
 
 #intro span{
-  color: var(--blue);
+  color: var(--red);
 }
 
 .services-grid{
